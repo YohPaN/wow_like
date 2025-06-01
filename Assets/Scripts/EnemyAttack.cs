@@ -10,7 +10,7 @@ namespace Assets.Scripts
         public float attackCooldown = 1f;
         public LayerMask playerLayer;
         public Animator animator;
-        
+        //USE THIS TO CHECK IF THE ENEMY IS ATTACKING
 
 
         private bool isAttacking = false;
