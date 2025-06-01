@@ -5,11 +5,12 @@ namespace Assets.Scripts
 
     public class EnemyAttack : MonoBehaviour
     {
-        public float attackRange = 20f;
+        public float attackRange = 20f; 
         public int attackDamage = 5;
         public float attackCooldown = 1f;
         public LayerMask playerLayer;
         public Animator animator;
+        
 
 
         private bool isAttacking = false;
